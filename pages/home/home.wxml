@@ -1,0 +1,58 @@
+<view class="home_pages">
+  <view class="image_area">
+    <view class = "home_area" bindtap="toEnglish">
+      <view class="home_icon" hover-class='tap_performance' hover-stay-time='100'>
+        <image class ="icon" src="/pages/icon/english.png"></image>
+      </view>
+      <view class = "icon_text">英语</view>
+    </view>
+    <view class = "home_area" bindtap="tochinese">
+      <view class="home_icon" hover-class='tap_performance' hover-stay-time='100'>
+        <image class ="icon" src="/pages/icon/chinese.png"></image>
+      </view>
+      <view class = "icon_text">语文</view>
+    </view>
+    <view class = "home_area" bindtap="tomath">
+      <view class="home_icon" hover-class='tap_performance' hover-stay-time='100'>
+        <image class ="icon" src="/pages/icon/mathematics.png"></image>
+      </view>
+      <view class = "icon_text">数学</view>
+    </view>
+    <view class = "home_area" bindtap="totime">
+      <view class="home_icon" hover-class='tap_performance' hover-stay-time='100'>
+        <image class ="icon" src="/pages/icon/time.png"></image>
+      </view>
+      <view class = "icon_text">历史</view>
+    </view>
+    <view class = "home_area" bindtap="togeography">
+      <view class="home_icon" hover-class='tap_performance' hover-stay-time='100'>
+        <image class ="icon" src="/pages/icon/geography.png"></image>
+      </view>
+      <view class = "icon_text">地理</view>
+    </view>
+    <view class = "home_area" bindtap="tozhengzhi">
+      <view class="home_icon" hover-class='tap_performance' hover-stay-time='100'>
+        <image class ="icon" src="/pages/icon/zhengzhi.png"></image>
+      </view>
+      <view class = "icon_text">政治</view>
+    </view>
+    <view class = "home_area" bindtap="tophysics">
+      <view class="home_icon" hover-class='tap_performance' hover-stay-time='100'>
+        <image class ="icon" src="/pages/icon/physics.png"></image>
+      </view>
+      <view class = "icon_text">物理</view>
+    </view>
+    <view class = "home_area" bindtap="tochemistry">
+      <view class="home_icon" hover-class='tap_performance' hover-stay-time='100'>
+        <image class ="icon" src="/pages/icon/chemistry.png"></image>
+      </view>
+      <view class = "icon_text">化学</view>
+    </view>
+    <view class = "home_area" bindtap="tobiology">
+      <view class="home_icon" hover-class='tap_performance' hover-stay-time='100'>
+        <image class ="icon" src="/pages/icon/biology.png"></image>
+      </view>
+      <view class = "icon_text">生物</view>
+    </view>
+  </view>
+</view>  
