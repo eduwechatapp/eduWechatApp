@@ -1,0 +1,20 @@
+<view class="list_area">
+  <view class="list" bindtap="toText1" hover-class='tap_performance' hover-stay-time='100'>
+    <view class="left_text">状语从句</view>
+    <view class = "icon_display">
+      <image src ="../../../icon/right.png" class="right_icon"></image>
+    </view>
+  </view>
+  <view class="list" bindtap="toText2" hover-class='tap_performance' hover-stay-time='100'>
+    <view class="left_text">非谓语动词</view>
+    <view class = "icon_display">
+      <image src ="../../../icon/right.png" class="right_icon"></image>
+    </view>
+  </view>
+  <view class="list" bindtap="toText2" hover-class='tap_performance' hover-stay-time='100'>
+    <view class="left_text">名词性从句</view>
+    <view class = "icon_display">
+      <image src ="../../../icon/right.png" class="right_icon"></image>
+    </view>
+  </view>
+</view>

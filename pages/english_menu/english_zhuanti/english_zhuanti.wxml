@@ -1,0 +1,14 @@
+<view class="list_area">
+  <view class="list" bindtap="toGrammar" hover-class='tap_performance' hover-stay-time='100'>
+    <view class="left_text">语法</view>
+    <view class = "icon_display">
+      <image src ="../../icon/right.png" class="right_icon"></image>
+    </view>
+  </view>
+  <view class="list" bindtap="toWriting" hover-class='tap_performance' hover-stay-time='100'>
+    <view class="left_text">写作指导</view>
+    <view class = "icon_display">
+      <image src ="../../icon/right.png" class="right_icon"></image>
+    </view>
+  </view>
+</view>

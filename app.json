@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/english_menu/english_zhuanti/english_zhuanti",
     "pages/home/home",
     "pages/index/index",
     "pages/logs/logs",
@@ -14,8 +15,19 @@
     "pages/physics/physics",
     "pages/study/study",
     "pages/mine/mine",
-    "pages/more/more"
+    "pages/more/more",
+    "pages/english_menu/english_attention/english_attention",
+    "pages/english_menu/english_exam/english_exam",
+    "pages/english_menu/english_lastnote/english_lastnote",
+    "pages/english_menu/english_star/english_star",
 
+    "pages/english_menu/english_video/english_video",
+    "pages/english_menu/english_knowledge/english_knowledge",
+    "pages/english_menu/english_zhuanti/grammar/grammar",
+    "pages/english_menu/english_zhuanti/grammar/text1/text1",
+    "pages/english_menu/english_zhuanti/grammar/text2/text2",
+    "pages/english_menu/english_zhuanti/grammar/text3/text3",
+    "pages/english_menu/english_zhuanti/writing/writing"
   ],
   "window":{
     "backgroundTextStyle":"light",
