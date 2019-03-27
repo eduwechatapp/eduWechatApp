@@ -1,1 +1,34 @@
-<view>我的</view>
+<view class='personalinfo' bindtap='topersonalinfo'>
+    <open-data style='border-radius:50%;overflow:hidden;display:block;height:15vw;width:15vw;margin-left:5vw' type='userAvatarUrl'></open-data>
+    <view class='username'><view style='display: inline-block'><open-data type="userNickName"></open-data></view></view> 
+</view>
+
+<view class="mine_pages">
+  <view class="image_area">
+    <view class = "mine_area" bindtap="tofavorite">
+      <view class="mine_icon" hover-class='tap_performance' hover-stay-time='100'>
+        <image class ="icon" src="/pages/icon/sc.png"></image>
+      </view>
+      <view class = "icon_text">帖子收藏</view>
+    </view>
+    <view class = "mine_area" bindtap="tomypost">
+      <view class="mine_icon" hover-class='tap_performance' hover-stay-time='100'>
+        <image class ="icon" src="/pages/icon/pages.png"></image>
+      </view>
+      <view class = "icon_text">我的帖子</view>
+    </view>
+    <view class = "mine_area" bindtap="torecord">
+      <view class="mine_icon" hover-class='tap_performance' hover-stay-time='100'>
+        <image class ="icon" src="/pages/icon/his.png"></image>
+      </view>
+      <view class = "icon_text">浏览记录</view>
+    </view>
+    <view class = "mine_area" bindtap="toav">
+      <view class="mine_icon" hover-class='tap_performance' hover-stay-time='100'>
+        <image class ="icon" src="/pages/icon/att.png"></image>
+      </view>
+      <view class = "icon_text">文章/视频收藏</view>
+    </view>
+    
+  </view>
+</view>  

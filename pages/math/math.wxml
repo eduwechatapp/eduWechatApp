@@ -1,1 +1,54 @@
-<view>math</view>
+<view class="pages">
+  <view class="image_area">
+
+    <view class = "area" bindtap="toKnowledge">
+      <view class="img_icon" hover-class='tap_performance' hover-stay-time='100'>
+        <image class ="icon" src="../icon/knowledge.png"></image>
+      </view>
+      <view class = "icon_text">知识点</view>
+    </view>
+
+    <view class = "area" bindtap="toVideo">
+      <view class="img_icon" hover-class='tap_performance' hover-stay-time='100'>
+        <image class ="icon" src="../icon/video.png"></image>
+      </view>
+      <view class = "icon_text">视频</view>
+    </view>
+
+    <view class = "area" bindtap="toZhuanti">
+      <view class="img_icon" hover-class='tap_performance' hover-stay-time='100'>
+        <image class ="icon" src="../icon/zhuanti.png"></image>
+      </view>
+      <view class = "icon_text">专题</view>
+    </view>
+
+    <view class = "area" bindtap="toExam">
+      <view class="img_icon" hover-class='tap_performance' hover-stay-time='100'>
+        <image class ="icon" src="../icon/exam.png"></image>
+      </view>
+      <view class = "icon_text">真题试卷</view>
+    </view>
+
+    <view class = "area" bindtap="toLastnote">
+      <view class="img_icon" hover-class='tap_performance' hover-stay-time='100'>
+        <image class ="icon" src="../icon/lastnote.png"></image>
+      </view>
+      <view class = "icon_text">上次记录</view>
+    </view>
+
+    <view class = "area" bindtap="toAttention">
+      <view class="img_icon" hover-class='tap_performance' hover-stay-time='100'>
+        <image class ="icon" src="../icon/attention.png"></image>
+      </view>
+      <view class = "icon_text">需要留意</view>
+    </view>
+
+    <view class = "area" bindtap="toStar">
+      <view class="img_icon" hover-class='tap_performance' hover-stay-time='100'>
+        <image class ="icon" src="../icon/star.png"></image>
+      </view>
+      <view class = "icon_text">收藏</view>
+    </view>
+
+  </view>
+</view>
