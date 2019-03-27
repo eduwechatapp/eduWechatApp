@@ -40,6 +40,5 @@ page{
 .button_area_bottom{
   display: flex;
   justify-content: space-between;
-
   width:100%;
 }

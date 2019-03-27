@@ -1,8 +1,9 @@
 {
   "pages":[
+    "pages/home/home",
     "pages/english_menu/english_zhuanti/grammar/text1/text1",
     "pages/english_menu/english_zhuanti/english_zhuanti",
-    "pages/home/home",
+
     "pages/index/index",
     "pages/logs/logs",
     "pages/english/english",
