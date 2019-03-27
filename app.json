@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/english_menu/english_zhuanti/grammar/text1/text1",
     "pages/english_menu/english_zhuanti/english_zhuanti",
     "pages/home/home",
     "pages/index/index",
@@ -24,7 +25,7 @@
     "pages/english_menu/english_video/english_video",
     "pages/english_menu/english_knowledge/english_knowledge",
     "pages/english_menu/english_zhuanti/grammar/grammar",
-    "pages/english_menu/english_zhuanti/grammar/text1/text1",
+
     "pages/english_menu/english_zhuanti/grammar/text2/text2",
     "pages/english_menu/english_zhuanti/grammar/text3/text3",
     "pages/english_menu/english_zhuanti/writing/writing"

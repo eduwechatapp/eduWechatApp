@@ -1,3 +1,32 @@
-<view>
+<view class="page">
+  <view class="top_area">
+    <view class="button_area">
+      <button class="button" size="mini" >不放心上</button>
+      <button class="button" size="mini">需要留意</button>
+      <button class="button" size="mini">重点关注</button>
+    </view>
+
+    <view class="title">
+      重要考点解析——状语从句
+    </view>
+  </view>
+  <view class="text_area">
+    <text>定义——在复合句中由从句表示的状语称作状语从句，状语从句由从属连词引导，也可以由一个起连词作用的词组引导，有时甚至不需要连词而直接和主句连接起来。
+      类型——时间、地点、原因、结果、条件、目的、让步、方式、比较状语从句。   
+      时间状语从句
+    1.引导词 when, while, as, as soon as, once, before, after, every time, each time, since, whenever, ever since, until ,till等。
+    2.whenever, each time, every time的用法。  注：whenever=no matter when
+    every time / each time 每次， whenever 每当······时，表示习惯性、经常性的动作。
+    Whenever we met with difficulties, they came to help us.
+    Eevery time I went to his house, he was out.
+    </text>
+  </view>
   
+  <view class="bottom_area">
+    <view class="button_area_bottom">
+      <button class="button" size="mini">上一页</button>
+      <button class="button" size="mini">下一页</button>
+    </view>
+
+  </view>
 </view>
