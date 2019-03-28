@@ -1,0 +1,40 @@
+.personalinfo{
+  width: 100vw;height: 25vw;
+  position: relative;border-bottom:1px #cccccc solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+ 
+.username{
+  position: absolute;top: 9vw;left: 25vw;
+  color: #959595;
+}
+.mine_pages{
+  height: 100%;
+}
+.icon{
+  height: 100%;
+  width: 100%
+}
+.mine_area{
+  width:50%;
+  height: 450rpx;
+}
+.image_area{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.icon_text{
+  text-align: center;
+}
+.mine_icon{
+  width:100%;
+  height: 80%;
+}
+.tap_performance {
+  background-color: rgba(0, 0, 0, 0.1);
+  opacity: 0.7;
+}
