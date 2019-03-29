@@ -1,38 +1,52 @@
 Page({
-  toKnowledge: function () {
-    wx.navigateTo({
-      url: '../math_menu/math_knowledge/math_knowledge',
-    })
+  data:{
+    menuList:[
+      {
+        name:'知识点',
+        path:'../chinese_menu/chinese_knowledge/chinese_knowledge',
+        icon:'../icon/knowledge.png'
+      },
+      {
+        name:'视频',
+        path:'../chinese_menu/chinese_video/chinese_video',
+        icon:'../icon/video.png'
+      },
+      {
+        name:'专题',
+        path:'../special/special',
+        icon:'../icon/zhuanti.png'
+      },
+      {
+        name:'真题试卷',
+        path:'../chinese_menu/chinese_exam/chinese_exam',
+        icon:'../icon/exam.png'
+      },
+      {
+        name:'上次记录',
+        path:'../chinese_menu/chinese_lastnote/chinese_lastnote',
+        icon:'../icon/lastnote.png'
+      },
+      {
+        name:'需要留意',
+        path:'../chinese_menu/chinese_attention/chinese_attention',
+        icon:'../icon/attention.png'
+      },
+      {
+        name:'收藏',
+        path:'../chinese_menu/chinese_star/chinese_star',
+        icon:'../icon/star.png'
+      }
+    ]
   },
-  toVideo: function () {
-    wx.navigateTo({
-      url: '../math_menu/math_video/math_video',
-    })
-  },
-  toExam: function () {
-    wx.navigateTo({
-      url: '../math_menu/math_exam/math_exam',
-    })
-  },
-  toZhuanti: function () {
-    wx.navigateTo({
-      url: '../math_menu/math_zhuanti/math_zhuanti',
-    })
-  },
-  toLastnote: function () {
-    wx.navigateTo({
-      url: '../math_menu/math_lastnote/math_lastnote',
-    })
-  },
-  toAttention: function () {
-    wx.navigateTo({
-      url: '../math_menu/math_attention/math_attention',
-    })
-  },
-  toStar: function () {
-    wx.navigateTo({
-      url: '../math_menu/math_star/math_star',
-    })
-  },
+
+  toPage(e){
+    var that = this,
+    id = e.currentTarget.id,
+    menuList = that.data.menuList,
+    subject = 'math'
+    
+    wx.navigateTo({ url: menuList[id].path+'?subject='+subject});
+  }
+
 })
 

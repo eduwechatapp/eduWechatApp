@@ -48,6 +48,8 @@
     "pages/chinese_menu/chinese_star/chinese_star",
     "pages/chinese_menu/chinese_video/chinese_video",
     "pages/chinese_menu/chinese_zhuanti/chinese_zhuanti",
+
+    "pages/chinese_menu/chinese_zhuanti/idiom/idiom",
     "pages/geography_menu/geography_attention/geography_attention",
     "pages/geography_menu/geography_exam/geography_exam",
     "pages/geography_menu/geography_knowledge/geography_knowledge",
@@ -82,7 +84,8 @@
     "pages/zhengzhi_menu/zhengzhi_lastnote/zhengzhi_lastnote",
     "pages/zhengzhi_menu/zhengzhi_star/zhengzhi_star",
     "pages/zhengzhi_menu/zhengzhi_video/zhengzhi_video",
-    "pages/zhengzhi_menu/zhengzhi_zhuanti/zhengzhi_zhuanti"
+    "pages/zhengzhi_menu/zhengzhi_zhuanti/zhengzhi_zhuanti",
+    "pages/special/special"
   ],
   "window": {
     "backgroundTextStyle": "light",

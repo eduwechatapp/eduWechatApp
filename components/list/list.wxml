@@ -1,0 +1,12 @@
+<view class="list" bindtap="_listFunction" hover-class="{{childList.length==0?'hover-class':''}}" hover-stay-time="200">
+    <view class="title">
+        <text class="title-text">{{title}}</text>
+    </view>
+    <text class="iconfont icon-right-arrow right-arrow" wx:if="{{childList.length==0}}"></text>
+</view>
+<view wx:for="{{childList}}" class="list" hover-class="hover-class" bindtap="_childFunc" id="{{index}}">
+    <view class="title" style="margin-left:20rpx;width:680rpx;">
+        <text class="title-text" style="font-size:30rpx">· {{item.title}}</text>
+    </view>
+    <text class="iconfont icon-right-arrow right-arrow"></text>
+</view>

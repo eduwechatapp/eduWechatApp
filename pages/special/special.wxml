@@ -1,0 +1,1 @@
+<r-list bind:listFunction="toPage" wx:for="{{menuList}}" id="{{index}}" title="{{item.title}}" childList="{{item.childMenuList}}"></r-list>
